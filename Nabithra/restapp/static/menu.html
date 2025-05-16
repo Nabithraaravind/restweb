@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Moonlit Saphore</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #080808;
+            color: #f5f2f2;
+        }
+
+        header {
+            background-color: #9b1b1b;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #f4a261; /* Light orange on hover */
+        }
+
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .menu-list {
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .menu-list li {
+            width: 300px;
+            background-color: #1d0404;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(225, 224, 224, 0.1);
+            text-align: center;
+        }
+
+        .menu-list img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .menu-list li p {
+            font-size: 1.1rem;
+            color: #fffdfd;
+            font-weight: bold;
+        }
+
+        .menu-list li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(255, 255, 255, 0.15);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="administration.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Food Items</h2>
+        <ul class="menu-list">
+            <li><img src="Biryani.jpeg" alt="Food Item 1">Pizza - $10</li>
+            <li><img src="Chocolate Shrikhand-video recipe.jpeg" alt="Food Item 2">Burger - $8</li>
+            <li><img src="Classic Cheeseburger with Melted Cheese Drip😋.jpeg" alt="Food Item 3">Pasta - $12</li>
+            <li><img src="Fish fry.jpeg" alt="Food Item 4">Salad - $7</li>
+            <li><img src="Masala Noodles _ Video - NISH KITCHEN.jpeg" alt="Food Item 5">Nuggets - $15</li>
+            <li><img src="mutton chukka.jpeg" alt="Food Item 6">Ice Cream - $5</li>
+            <li><img src="paratha.jpeg" alt="Food Item 7">Sandwich - $6</li>
+            <li><img src="pizza.jpeg" alt="Food Item 8">French Fries - $4</li>
+            <li><img src="Pork Meal.jpeg" alt="Food Item 9">Soup - $5</li>
+            <li><img src="Prawn Balti.jpeg" alt="Food Item 10">Chocolate Cake - $6</li>
+            <li><img src="tandoori.jpeg" alt="Food Item 11">Smiley Fries - $6</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2025 Nabithra</p>
+    </footer>
+</body>
+</html>
